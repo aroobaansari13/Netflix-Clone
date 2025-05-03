@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: transparent;
+    height: 70px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.netflix{
+    font-family:"nf-icon" ;
+    color: #e50914;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 25px;
+}
+.list-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: -350px;
+}
+.list-left p {
+    padding: 8px;
+}
+.list-left p:hover {
+    padding: 8px;
+    opacity: 0.7;
+}
+.list-right{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 20px;
+}
+.list-right p{
+    padding: 8px;
+}
+.list-right p i:hover{
+    opacity: 0.7;
+}
+.list-right p  img{
+    height: 30px;
+    width: 30px;
+}
+.main-page p img{
+   width: 100%;
+}
+.list-head , .new-head , .animate-head ,
+.watch-head , .india-head , .comp-head{
+    color:white ;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.my-list, .new-on-net , .animations , 
+.bec-watch, .indian-cin, .comp-cap{
+    display: flex;
+    margin-left: 10px;
+}
+.my-list p , .new-on-net p , .animations p 
+,.bec-watch p, .indian-cin p, .comp-cap p{
+    padding: 8px;
+}
+.my-list p img, .new-on-net p img, .animations p img,
+.bec-watch p img, .indian-cin p img, .comp-cap p img{
+    width: 290px;
+    height: 174px;
+}
+.my-list p img:hover, .new-on-net p img:hover, .animations p img:hover
+,.bec-watch p img:hover, .indian-cin p img:hover, .comp-cap p img:hover{
+    box-shadow: 0 5px 10px whitesmoke;
+    cursor: pointer;
+}
+.icons p i {
+    color: white;
+}
+.audio .icons{
+    display: flex;
+    margin-top: -2.3em;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.foot-content{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.foot-content .audio p,.foot-content .help p,
+.foot-content .gift p,.foot-content .media p {
+    padding: 10px;
+}
+.foot-content .audio p a,.foot-content .help p a,
+.foot-content .gift p a,.foot-content .media p a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+.foot-content .audio p a:hover,.foot-content .help p a:hover
+,.foot-content .gift p a:hover,.foot-content .media p a:hover{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.foot-content .help ,.foot-content .gift,.foot-content .media {
+   margin-left: -20em;
+}
+.foot-content .audio .service{
+    border: 1px solid white;
+    padding: 5px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.foot-content .audio .service a:hover{
+    opacity: 1;
+    text-decoration: none;
+}
